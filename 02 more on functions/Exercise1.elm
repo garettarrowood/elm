@@ -8,4 +8,4 @@ import List exposing (..)
     left 1 a == left 1 b
 
 main =
-    "bob" ~= "bend" |> toString |> Html.text
+    (~=) "bob" "bend" |> toString |> Html.text
